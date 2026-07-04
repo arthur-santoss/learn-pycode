@@ -38,4 +38,3 @@ Desenvolvido por **Arthur dos Santos**.
 Se quiser acompanhar minha jornada ou trocar uma ideia sobre programação:
 
 * **LinkedIn:** https://www.linkedin.com/in/arthur-ds-santos/
-* 

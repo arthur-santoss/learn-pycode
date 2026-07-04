@@ -1,3 +1,3 @@
-from selenium import webdriver
+from fundamentos.selenium import webdriver
 
 driver = webdriver.Chrome()

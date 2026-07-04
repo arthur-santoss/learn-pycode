@@ -34,8 +34,8 @@ O código está organizado da seguinte forma:
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **[Seu Nome]**.  
+Desenvolvido por **Arthur dos Santos**.  
 Se quiser acompanhar minha jornada ou trocar uma ideia sobre programação:
 
-* **LinkedIn:** [link-para-seu-perfil]
-* **E-mail:** [seu-email@provedor.com]
+* **LinkedIn:** https://www.linkedin.com/in/arthur-ds-santos/
+* 

@@ -1,13 +1,24 @@
-import api
-import os 
+class Celular:
+    marca = 'Samsung'
+    modelo = 'Galaxy S21'
+    cor = 'Preto'
+    tem_capa = True
+    bateria = '6000 mAh'
 
-ambiente = os.environ.get('AMBIENTE')
-usuario = os.environ.get('USUARIO_API')
-senha = os.environ.get('SENHA_API')
+    def fazer_ligacao(self, numero):
+        print(f'Ligando para {numero}...')
+    
+    def enviar_mensagem(self, numero, mensagem):
+        print(f'Enviando mensagem para {numero}: {mensagem}')
+    
+    def tirar_foto(self):
+        print('Foto tirada com sucesso!')
+    
+    def calcular(self, num1, num2):
+        print(num1 + num2)
+    
+celular1 = Celular()
 
-login = api.login(usuario, senha)
-print(login)
+celular1.fazer_ligacao(51954545654)
 
-if ambiente == 'dev':
-    email = api.envia_email_log()
-    print(email)
+celular1.calcular(10, 20)

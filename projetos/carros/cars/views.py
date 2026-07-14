@@ -1,17 +1,13 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+
+from cars.models import Car
 
 def cars_view(request):
-    html = '''
-    <html>
-        <head>
-            <title>Meus carros</title>
-        </head>
-        <body>
-            <H1>Carros PyCode</H1>
-            <p>Só carro top</p>
-        </body>
-    </html>
-    '''
-    return HttpResponse(html)
+    cars = Car.objects.all()    
+
+    return render(
+        request,
+        'cars.html',
+        {'cars':cars}
+    )
 

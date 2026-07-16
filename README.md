@@ -1,12 +1,4 @@
-# 🐍 Aprendizado - Curso Pycode
-
-Este repositório foi criado com o objetivo de centralizar todos os meus estudos, exercícios, desafios e projetos desenvolvidos ao longo do curso **Pycode**. 
-
-O foco principal aqui é registrar a minha evolução na linguagem Python, aplicando conceitos que vão desde os fundamentos até o desenvolvimento de soluções mais robustas.
-
----
-
-## 🚀 Tecnologias e Ferramentas
+## 🚀 Stacks
 
 * **Python 3.14.5** (Linguagem principal)
 * **Git & GitHub** (Controle de versão e documentação)

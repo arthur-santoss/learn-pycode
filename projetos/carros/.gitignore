@@ -11,3 +11,4 @@ venv/
 # Python
 __pycache__/
 *.pyc
+accounts/__pycache__
